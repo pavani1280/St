@@ -3,4 +3,5 @@ function max(a,b,c){
  return y;
 }
 let x= max(5,12,6);
+
 console.log("max is ",x);
