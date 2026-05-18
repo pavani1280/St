@@ -13,7 +13,8 @@ const app=exp()
 
 app.use(
   cors({
-    origin: ["http://localhost:5173","https://capstone-project-theta-eight.vercel.app/"], 
+    origin: ["http://localhost:5173",
+             "https://capstone-project-theta-eight.vercel.app"], 
     credentials: true, 
   })
 );
